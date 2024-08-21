@@ -1,0 +1,30 @@
+{
+  "name": "stripe-server-example",
+  "version": "0.1.0",
+  "description": "Stripe server example",
+  "main": "index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon --exec ts-node index.ts | pino-pretty",
+    "start:prod": "node build/index.js | pino-pretty"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pine": "^1.1.1",
+    "pino-http": "^8.5.1",
+    "pino-pretty": "^9.4.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.5",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.2"
+  }
+}

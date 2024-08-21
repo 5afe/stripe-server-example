@@ -40,4 +40,4 @@ pnpm start:prod
 
 ## License
 
-This library is released under [MIT](https://github.com/safe-global/safe-core-sdk/tree/main/LICENSE.md).
+This library is released under [MIT](https://github.com/5afe/stripe-server-example/tree/main/LICENSE).
